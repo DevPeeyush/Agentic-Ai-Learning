@@ -1,0 +1,50 @@
+# Python virtual environments
+.agenticvenv/
+.venv/
+venv/
+env/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+*.egg-info/
+.eggs/
+
+# Test, coverage, and type-checker artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local indexes and databases
+.indices/
+*.db
+*.db-shm
+*.db-wal
+
+# Logs and local runtime files
+*.log
+.cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
